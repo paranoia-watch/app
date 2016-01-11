@@ -5,21 +5,21 @@
             <View class="location" id="Amsterdam">
                 <View class="percentageBox">
                     <Label class="paranoiaPercentage" id="ParanoiaAmsterdam" text="0"/>
-                    <Label class="timeFrameSpan" text="last hour"/>
+                    <Label class="timeFrameSpan" text="since last hour"/>
                 </View>
                 <Label class="locationName" text="AMSTERDAM"/>
             </View>
             <View class="location" id="Paris">
                 <View class="percentageBox">
                     <Label class="paranoiaPercentage" id="ParanoiaParis" text="0"/>
-                    <Label class="timeFrameSpan" text="last hour"/>
+                    <Label class="timeFrameSpan" text="since last hour"/>
                 </View>
                 <Label class="locationName" text="PARIS"/>                
             </View>
             <View class="location" id="Berlin">
                 <View class="percentageBox">
                     <Label class="paranoiaPercentage" id="ParanoiaBerlin" text="0"/>
-                    <Label class="timeFrameSpan" text="last hour"/>
+                    <Label class="timeFrameSpan" text="since last hour"/>
                 </View>
                 <Label class="locationName" text="BERLIN"/>                
             </View>

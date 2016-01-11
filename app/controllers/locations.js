@@ -7,19 +7,19 @@ Ti.App.addEventListener('app:paranoia', function(data) {
 
 function updateParis(change) {
     var change = parseChangePercentage(change)
-    $.ParanoiaParis.text = change + "%"
+    $.ParanoiaParis.text = ((change>0) ? "+" : "") + change + "%"
     changeBackground(change, $.Paris)
 }
 
 function updateAmsterdam(change) {
     var change = parseChangePercentage(change)
-    $.ParanoiaAmsterdam.text = change + "%"
+    $.ParanoiaAmsterdam.text = ((change>0) ? "+" : "") + change + "%"
     changeBackground(change, $.Amsterdam)
 }
 
 function updateBerlin(change) {
     var change = parseChangePercentage(change)
-    $.ParanoiaBerlin.text = change + "%"
+    $.ParanoiaBerlin.text = ((change>0) ? "+" : "") + change + "%"
     changeBackground(change, $.Berlin)
 }
 
