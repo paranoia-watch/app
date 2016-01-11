@@ -53,9 +53,10 @@
 
 ".paranoiaPercentage": {
     top: 192,
+    width: "100%",
     font: {
         fontFamily: "Montserrat-Bold",
-        fontSize: 90
+        fontSize: 72
     },
     color: "#000000",
     verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
