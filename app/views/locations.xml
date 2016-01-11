@@ -14,5 +14,6 @@
                 <Label class="paranoiaPercentage" id="ParanoiaBerlin" text="0%"/>
             </View>
         </ScrollableView>
+        <WebView id="WebView"/>
     </Window>
 </Alloy>
