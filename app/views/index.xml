@@ -1,0 +1,5 @@
+<Alloy>
+    <NavigationWindow id="index">
+        <Require src="locations"/>
+    </NavigationWindow>
+ </Alloy>

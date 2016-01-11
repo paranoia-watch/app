@@ -1,0 +1,18 @@
+"ScrollableView": {
+    showPagingControl: true
+}
+
+".location": {
+    width: Alloy.Globals.deviceWidth,
+    height: Alloy.Globals.deviceHeight,
+    backgroundColor: "red",
+    layout: "vertical"
+}
+
+".locationName": {
+    top: "30%"
+}
+
+"Label": {
+    color: "#000000"
+}
