@@ -2,6 +2,11 @@
     showPagingControl: true
 }
 
+"WebView": {
+    width: 0,
+    height: 0
+}
+
 ".location": {
     width: Alloy.Globals.deviceWidth,
     height: Alloy.Globals.deviceHeight,
