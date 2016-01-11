@@ -1,17 +1,27 @@
 <Alloy>
     <Window id="locations">
+        <Label id="AppTitle" text="PARANOIA.WATCH"/>
         <ScrollableView>
             <View class="location" id="Amsterdam">
-                <Label class="locationName" text="Amsterdam"/>
-                <Label class="paranoiaPercentage" id="ParanoiaAmsterdam" text="0%"/>
+                <View class="percentageBox">
+                    <Label class="paranoiaPercentage" id="ParanoiaAmsterdam" text="0"/>
+                    <Label class="timeFrameSpan" text="last hour"/>
+                </View>
+                <Label class="locationName" text="AMSTERDAM"/>
             </View>
             <View class="location" id="Paris">
-                <Label class="locationName" text="Paris"/>                
-                <Label class="paranoiaPercentage" id="ParanoiaParis" text="0%"/>
+                <View class="percentageBox">
+                    <Label class="paranoiaPercentage" id="ParanoiaParis" text="0"/>
+                    <Label class="timeFrameSpan" text="last hour"/>
+                </View>
+                <Label class="locationName" text="PARIS"/>                
             </View>
             <View class="location" id="Berlin">
-                <Label class="locationName" text="Berlin"/>                
-                <Label class="paranoiaPercentage" id="ParanoiaBerlin" text="0%"/>
+                <View class="percentageBox">
+                    <Label class="paranoiaPercentage" id="ParanoiaBerlin" text="0"/>
+                    <Label class="timeFrameSpan" text="last hour"/>
+                </View>
+                <Label class="locationName" text="BERLIN"/>                
             </View>
         </ScrollableView>
         <WebView id="WebView"/>

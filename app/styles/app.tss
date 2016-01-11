@@ -3,5 +3,5 @@
     height: "100%",
     layout: "composite",
     navBarHidden: true,
-    backgroundColor: "#000000"
+    backgroundColor: "#ff0000"
 }

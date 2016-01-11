@@ -1,8 +1,8 @@
 Ti.App.addEventListener('app:paranoia', function(data) {
     var locationsData = data.paranoiaChange[0].locations;
-    $.ParanoiaAmsterdam.text = locationsData[1].change
-    $.ParanoiaParis.text = locationsData[0].change
-    $.ParanoiaBerlin.text = locationsData[2].change
+    $.ParanoiaAmsterdam.text = parseInt(locationsData[1].change).toFixed(0) + "%"
+    $.ParanoiaParis.text = parseInt(locationsData[0].change).toFixed(0) + "%"
+    $.ParanoiaBerlin.text = parseInt(locationsData[2].change).toFixed(0) + "%"
 })
 
 $.locations.addEventListener('open', function() {
